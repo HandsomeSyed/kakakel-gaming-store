@@ -1,0 +1,236 @@
+{
+  "products": [
+    {
+      "id": "p001",
+      "name": "Gaming Mouse RGB",
+      "category": "mouse",
+      "price": 1299,
+      "rating": 4.5,
+      "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=400&h=400&fit=crop",
+      "affiliate": {
+        "daraz": "https://daraz.pk",
+        "amazon": "https://amazon.com"
+      },
+      "featured": true
+    },
+    {
+      "id": "p002",
+      "name": "Mechanical Keyboard",
+      "category": "keyboard",
+      "price": 3499,
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400&h=400&fit=crop",
+      "affiliate": {
+        "daraz": "https://daraz.pk",
+        "amazon": "https://amazon.com"
+      },
+      "featured": true
+    },
+    {
+      "id": "p003",
+      "name": "Gaming Headset Pro",
+      "category": "headset",
+      "price": 2499,
+      "rating": 4.3,
+      "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=400&h=400&fit=crop",
+      "affiliate": {
+        "daraz": "https://daraz.pk",
+        "amazon": "https://amazon.com"
+      },
+      "featured": true
+    },
+    {
+      "id": "p004",
+      "name": "Gaming Chair Ergonomic",
+      "category": "accessories",
+      "price": 12999,
+      "rating": 4.6,
+      "image": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=400&h=400&fit=crop",
+      "affiliate": {
+        "daraz": "https://daraz.pk",
+        "amazon": "https://amazon.com"
+      },
+      "featured": false
+    },
+    {
+      "id": "p005",
+      "name": "Gaming Monitor 24\"",
+      "category": "accessories",
+      "price": 18999,
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400&h=400&fit=crop",
+      "affiliate": {
+        "daraz": "https://daraz.pk",
+        "amazon": "https://amazon.com"
+      },
+      "featured": false
+    },
+    {
+      "id": "p006",
+      "name": "Webcam HD 1080p",
+      "category": "accessories",
+      "price": 2999,
+      "rating": 4.2,
+      "image": "https://images.unsplash.com/photo-1587826080692-f439cd0b70da?w=400&h=400&fit=crop",
+      "affiliate": {
+        "daraz": "https://daraz.pk",
+        "amazon": "https://amazon.com"
+      },
+      "featured": false
+    },
+    {
+      "id": "p007",
+      "name": "USB Microphone",
+      "category": "accessories",
+      "price": 4499,
+      "rating": 4.4,
+      "image": "https://images.unsplash.com/photo-1590602847861-f0551ea30426?w=400&h=400&fit=crop",
+      "affiliate": {
+        "daraz": "https://daraz.pk",
+        "amazon": "https://amazon.com"
+      },
+      "featured": false
+    },
+    {
+      "id": "p008",
+      "name": "Gaming Mousepad XL",
+      "category": "accessories",
+      "price": 899,
+      "rating": 4.1,
+      "image": "https://images.unsplash.com/photo-1616627561950-9f746e330187?w=400&h=400&fit=crop",
+      "affiliate": {
+        "daraz": "https://daraz.pk",
+        "amazon": "https://amazon.com"
+      },
+      "featured": false
+    },
+    {
+      "id": "p009",
+      "name": "Graphics Card GTX 1650",
+      "category": "gpu",
+      "price": 24999,
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=400&h=400&fit=crop",
+      "affiliate": {
+        "daraz": "https://daraz.pk",
+        "amazon": "https://amazon.com"
+      },
+      "featured": true
+    },
+    {
+      "id": "p010",
+      "name": "RGB LED Strip Lights",
+      "category": "accessories",
+      "price": 1199,
+      "rating": 4.0,
+      "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&h=400&fit=crop",
+      "affiliate": {
+        "daraz": "https://daraz.pk",
+        "amazon": "https://amazon.com"
+      },
+      "featured": false
+    }
+  ],
+  "digitalProducts": [
+    {
+      "id": "d001",
+      "name": "Stream Overlay Pack Pro",
+      "category": "stream-overlay",
+      "price": 999,
+      "description": "Professional stream overlay package with alerts, panels, and transitions",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=500&h=300&fit=crop",
+      "previewImages": [
+        "https://images.unsplash.com/photo-1611162616475-46b635cb6868?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1611162617158-93194c3cb9cd?w=600&h=400&fit=crop"
+      ],
+      "features": [
+        "10+ Overlay Designs",
+        "Animated Alerts",
+        "Stream Panels",
+        "Transitions",
+        "Free Updates"
+      ],
+      "featured": true
+    },
+    {
+      "id": "d002",
+      "name": "Gaming Thumbnails Pack",
+      "category": "thumbnails",
+      "price": 499,
+      "description": "50+ high-converting YouTube gaming thumbnail templates",
+      "image": "https://images.unsplash.com/photo-1611162616475-46b635cb6868?w=500&h=300&fit=crop",
+      "previewImages": [
+        "https://images.unsplash.com/photo-1611162617158-93194c3cb9cd?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?w=600&h=400&fit=crop"
+      ],
+      "features": [
+        "50+ Templates",
+        "PSD & PNG Format",
+        "Fully Editable",
+        "Commercial License",
+        "Free Updates"
+      ],
+      "featured": true
+    },
+    {
+      "id": "d003",
+      "name": "OBS Setup Guide + Presets",
+      "category": "obs-setup",
+      "price": 799,
+      "description": "Complete OBS setup guide with optimized presets for streaming and recording",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=300&fit=crop",
+      "previewImages": [
+        "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&h=400&fit=crop"
+      ],
+      "features": [
+        "Step-by-Step Guide",
+        "Optimized Presets",
+        "Scene Templates",
+        "Audio Settings",
+        "Performance Tips"
+      ],
+      "featured": true
+    },
+    {
+      "id": "d004",
+      "name": "Gaming Brand Logo Pack",
+      "category": "branding",
+      "price": 1299,
+      "description": "Custom gaming brand logos, banners, and social media kit",
+      "image": "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=500&h=300&fit=crop",
+      "previewImages": [
+        "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=600&h=400&fit=crop"
+      ],
+      "features": [
+        "20+ Logo Variations",
+        "Social Media Banners",
+        "Watermark Designs",
+        "Source Files Included",
+        "Commercial License"
+      ],
+      "featured": false
+    },
+    {
+      "id": "d005",
+      "name": "Discord Server Template",
+      "category": "discord",
+      "price": 399,
+      "description": "Professional Discord server setup with roles, channels, and bots guide",
+      "image": "https://images.unsplash.com/photo-1614680376593-38979341ba85?w=500&h=300&fit=crop",
+      "previewImages": [
+        "https://images.unsplash.com/photo-1614680376739-414d95ff43df?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1611652022913-3e1295606128?w=600&h=400&fit=crop"
+      ],
+      "features": [
+        "Server Structure",
+        "Role Templates",
+        "Bot Recommendations",
+        "Channel Art",
+        "Setup Guide"
+      ],
+      "featured": false
+    }
+  ]
+}

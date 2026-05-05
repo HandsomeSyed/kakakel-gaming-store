@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kakakel Gaming Store - Level Up Your Gaming Setup. Best gaming accessories, digital products, and guides for gamers in Pakistan.">
+  <meta name="keywords" content="gaming store pakistan, gaming accessories, stream overlay, gaming setup, gaming gear">
+  <meta name="author" content="Kakakel Gaming">
+  <title>Kakakel Gaming Store | Level Up Your Gaming Setup</title>
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-logo">
+        <img src="logo.png" alt="Kakakel Gaming Store" class="navbar-logo-img">
+        <span class="navbar-logo-text">Kakakel Gaming Store</span>
+      </a>
+      <ul class="navbar-menu" id="navbarMenu">
+        <li><a href="index.html" class="navbar-link active">Home</a></li>
+        <li><a href="shop.html" class="navbar-link">Shop</a></li>
+        <li><a href="digital-products.html" class="navbar-link">Digital</a></li>
+        <li><a href="about.html" class="navbar-link">About</a></li>
+        <li><a href="contact.html" class="navbar-link">Contact</a></li>
+      </ul>
+      <div class="navbar-actions">
+        <a href="#" class="navbar-icon" id="wishlistIcon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          <span class="wishlist-badge" id="wishlistBadge">0</span>
+        </a>
+        <a href="checkout.html" class="navbar-icon" id="cartIcon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+          <span class="wishlist-badge" id="cartBadge">0</span>
+        </a>
+        <button class="mobile-toggle" id="mobileToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <span class="hero-badge">🎮 Pakistan's #1 Gaming Store</span>
+          <h1 class="hero-title">Level Up Your <span class="highlight">Gaming Setup</span></h1>
+          <p class="hero-description">Discover premium gaming accessories, digital products, and expert guides. Built by gamers, for gamers.</p>
+          <div class="hero-buttons">
+            <a href="shop.html" class="btn btn-primary">Shop Now</a>
+            <a href="digital-products.html" class="btn btn-secondary">Explore Deals</a>
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <div class="hero-stat-number">10K+</div>
+              <div class="hero-stat-label">Happy Gamers</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-number">500+</div>
+              <div class="hero-stat-label">Products</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-number">4.8★</div>
+              <div class="hero-stat-label">Average Rating</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img src="https://images.unsplash.com/photo-1542751110-97427bbecf20?w=600&h=600&fit=crop" alt="Gaming Setup" class="hero-image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Featured Categories</h2>
+      <p class="section-subtitle">Explore our curated collections for every type of gamer</p>
+      <div class="categories-grid">
+        <a href="shop.html" class="category-card">
+          <div class="category-icon">🎮</div>
+          <h3 class="category-name">Gaming Accessories</h3>
+          <p class="category-count">50+ Products</p>
+        </a>
+        <a href="digital-products.html" class="category-card">
+          <div class="category-icon">💻</div>
+          <h3 class="category-name">Digital Products</h3>
+          <p class="category-count">25+ Downloads</p>
+        </a>
+        <a href="#" class="category-card">
+          <div class="category-icon">📚</div>
+          <h3 class="category-name">Gaming Guides</h3>
+          <p class="category-count">Coming Soon</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <h2 class="section-title">Trending Products</h2>
+      <p class="section-subtitle">Our most popular gaming gear picked by the community</p>
+      <div class="product-grid" id="trendingProducts"></div>
+      <div style="text-align: center; margin-top: 40px;">
+        <a href="shop.html" class="btn btn-primary">View All Products</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">What Gamers Say</h2>
+      <p class="section-subtitle">Trusted by thousands of gamers across Pakistan</p>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-rating">★★★★★</div>
+          <p class="testimonial-text">"Best gaming store for budget setups! Found amazing deals on Daraz through their recommendations. My PC gaming experience is now next level!"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">A</div>
+            <div>
+              <div class="testimonial-name">Ahmed Raza</div>
+              <div class="testimonial-role">PC Gamer, Lahore</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-rating">★★★★★</div>
+          <p class="testimonial-text">"The stream overlay pack is fire! Professional quality at an affordable price. My Twitch stream looks so much better now. Highly recommend!"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">S</div>
+            <div>
+              <div class="testimonial-name">Sara Khan</div>
+              <div class="testimonial-role">Streamer, Karachi</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-rating">★★★★★</div>
+          <p class="testimonial-text">"As a low-end PC gamer, the optimization guides were a game changer. Running games I never thought possible. This site is a goldmine!"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">M</div>
+            <div>
+              <div class="testimonial-name">Muhammad Ali</div>
+              <div class="testimonial-role">Gamer, Islamabad</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="newsletter">
+        <h2 class="newsletter-title">Join the Squad</h2>
+        <p class="newsletter-text">Get exclusive deals, gaming tips, and new product alerts delivered to your inbox.</p>
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="email" class="newsletter-input" placeholder="Enter your email" required>
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="trust-badges">
+        <div class="trust-badge">
+          <div class="trust-icon">🔒</div>
+          <div class="trust-text">
+            <strong>Secure Payments</strong>
+            <span>100% Safe Checkout</span>
+          </div>
+        </div>
+        <div class="trust-badge">
+          <div class="trust-icon">⚡</div>
+          <div class="trust-text">
+            <strong>Instant Delivery</strong>
+            <span>Digital Products</span>
+          </div>
+        </div>
+        <div class="trust-badge">
+          <div class="trust-icon">💯</div>
+          <div class="trust-text">
+            <strong>Quality Guaranteed</strong>
+            <span>Verified Products</span>
+          </div>
+        </div>
+        <div class="trust-badge">
+          <div class="trust-icon">🎯</div>
+          <div class="trust-text">
+            <strong>Curated Selection</strong>
+            <span>Best Products Only</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="logo.png" alt="" class="footer-logo-img">
+            <span>Kakakel Gaming Store</span>
+          </div>
+          <p class="footer-description">Pakistan's premier gaming store for accessories, digital products, and gaming guides. Built by gamers, for gamers.</p>
+          <div class="footer-social">
+            <a href="#" class="footer-social-link">📘</a>
+            <a href="#" class="footer-social-link">📸</a>
+            <a href="#" class="footer-social-link">🎮</a>
+            <a href="#" class="footer-social-link">🐦</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="digital-products.html">Digital Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title">Categories</h4>
+          <ul class="footer-links">
+            <li><a href="shop.html">Gaming Accessories</a></li>
+            <li><a href="digital-products.html">Stream Overlays</a></li>
+            <li><a href="digital-products.html">Thumbnails</a></li>
+            <li><a href="digital-products.html">OBS Setups</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title">Support</h4>
+          <ul class="footer-links">
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Kakakel Gaming Store. All rights reserved. Built with ❤️ for gamers.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
