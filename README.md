@@ -3,8 +3,7 @@
 A modern, responsive gaming e-commerce website built for gamers who want affordable setups, accessories, and digital products. This project is designed for affiliate marketing (Daraz, Amazon) and digital product sales such as gaming overlays, thumbnails, and OBS setups.
 
 🚀 Live Demo
-
-(Add your GitHub Pages link here after deployment)
+https://handsomesyed.github.io/kakakel-gaming-store
 
 📌 Features
 🎮 Modern gaming UI (dark + neon style)
