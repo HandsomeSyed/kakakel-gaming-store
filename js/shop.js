@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', async function() {
   initFilters();
   initSearch();
   initSort();
+  initFilterToggle();
 });
 
 async function loadProducts() {
@@ -129,5 +130,25 @@ function applySorting() {
       break;
     default:
       filteredProducts.sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0));
+  }
+}
+
+function initFilterToggle() {
+  const toggle = document.getElementById('filterToggle');
+  const filters = document.getElementById('shopFilters');
+  if (toggle && filters) {
+    toggle.addEventListener('click', function() {
+      filters.classList.toggle('collapsed');
+      toggle.querySelector('span:last-child').textContent = filters.classList.contains('collapsed') ? '▶' : '▼';
+    });
+    const filterOptions = filters.querySelectorAll('.filter-option');
+    filterOptions.forEach(opt => {
+      opt.addEventListener('click', function() {
+        if (window.innerWidth <= 768) {
+          filters.classList.add('collapsed');
+          toggle.querySelector('span:last-child').textContent = '▶';
+        }
+      });
+    });
   }
 }
