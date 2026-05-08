@@ -11,32 +11,32 @@
 <body>
   <nav class="navbar">
     <div class="container">
-      <a href="index.html" class="navbar-logo">
-        <img src="logo.png" alt="Kakakel Gaming Store" class="navbar-logo-img">
-        <span class="navbar-logo-text">Kakakel Gaming Store</span>
+    <a href="index.html" class="navbar-logo">
+      <img src="logo.png" alt="Kakakel Gaming Store">
+      <span>Kakakel Gaming Store</span>
+    </a>
+    <ul class="navbar-menu" id="navbarMenu">
+      <li><a href="index.html" class="navbar-link">Home</a></li>
+      <li><a href="shop.html" class="navbar-link">Shop</a></li>
+      <li><a href="digital-products.html" class="navbar-link">Digital</a></li>
+      <li><a href="about.html" class="navbar-link active">About</a></li>
+      <li><a href="contact.html" class="navbar-link">Contact</a></li>
+    </ul>
+    <div class="navbar-actions">
+      <a href="#" class="navbar-icon" id="wishlistIcon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        <span class="wishlist-badge" id="wishlistBadge">0</span>
       </a>
-      <ul class="navbar-menu" id="navbarMenu">
-        <li><a href="index.html" class="navbar-link">Home</a></li>
-        <li><a href="shop.html" class="navbar-link">Shop</a></li>
-        <li><a href="digital-products.html" class="navbar-link">Digital</a></li>
-        <li><a href="about.html" class="navbar-link active">About</a></li>
-        <li><a href="contact.html" class="navbar-link">Contact</a></li>
-      </ul>
-      <div class="navbar-actions">
-        <a href="#" class="navbar-icon" id="wishlistIcon">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-          <span class="wishlist-badge" id="wishlistBadge">0</span>
-        </a>
-        <a href="checkout.html" class="navbar-icon" id="cartIcon">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
-          <span class="wishlist-badge" id="cartBadge">0</span>
-        </a>
-        <button class="mobile-toggle" id="mobileToggle">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-      </div>
+      <a href="checkout.html" class="navbar-icon" id="cartIcon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+        <span class="wishlist-badge" id="cartBadge">0</span>
+      </a>
+      <button class="mobile-toggle" id="mobileToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
     </div>
   </nav>
 
@@ -45,7 +45,7 @@
       <span class="hero-badge">🎮 Our Story</span>
       <h1 class="about-title">Built by <span class="highlight">Gamers</span>, for <span class="highlight">Gamers</span></h1>
       <p class="about-text">We're a team of passionate gamers on a mission to help every Pakistani gamer build their dream setup without breaking the bank.</p>
-      
+
       <div class="about-stats">
         <div class="about-stat">
           <div class="about-stat-number">10K+</div>
@@ -76,9 +76,7 @@
           <p>As a gamer myself, I spent countless hours searching for the best deals, comparing prices, and testing products. I realized that most Pakistani gamers—especially those with low-end or mid-range PCs—were struggling to find the right gear and optimization tips.</p>
           <p>That's when I decided to create a one-stop destination where gamers could find curated products, affordable digital assets, and expert guides—all in one place.</p>
         </div>
-        <div>
-          <img src="https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=600&h=400&fit=crop" alt="About Kakakel Gaming" class="about-image">
-        </div>
+        <img src="https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=600&h=400&fit=crop" alt="About Kakakel Gaming" class="about-image">
       </div>
     </div>
   </section>
@@ -86,9 +84,7 @@
   <section class="section" style="background: var(--bg-secondary);">
     <div class="container">
       <div class="about-content">
-        <div>
-          <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600&h=400&fit=crop" alt="Our Mission" class="about-image">
-        </div>
+        <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600&h=400&fit=crop" alt="Our Mission" class="about-image">
         <div class="about-story">
           <h2>Our Mission</h2>
           <p>We believe that every gamer deserves access to quality gaming gear and resources, regardless of their budget. Our mission is to:</p>
